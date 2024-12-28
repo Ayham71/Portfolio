@@ -177,3 +177,18 @@ header nav{
         padding: .5rem;
     }
 }
+.me{
+    width: 70%;
+    display: grid;
+    margin-top: 60px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.me img{
+    width: 250px;
+    border-radius: 150px;
+    justify-self: end;
+}
+.me h2{
+    justify-content: center;
+    align-items: center;
+}
