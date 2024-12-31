@@ -212,9 +212,11 @@ header nav{
 @media(max-width: 768px){
     .me img{
         width: 200px;
+        margin-right: 30px;
     }
     .me h2{
         margin-top: 50px;
+        margin-left: 0;
     }
 }
 @media(max-width: 650px){
@@ -237,6 +239,10 @@ header nav{
     .me img{
         justify-self: center;
         width: 200px;
+        margin-left: 25px;
+    }
+    .me h2{
+        padding:0 15px 0;
     }
 }
 @media(max-width: 425px){
