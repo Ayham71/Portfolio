@@ -181,6 +181,8 @@ header nav{
     }
 }
 
+/*  ================================================================  */
+
 
 
 
@@ -194,6 +196,16 @@ header nav{
     width: 250px;
     border-radius: 150px;
     justify-self: end;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1), 
+                0 6px 20px rgba(255, 255, 255, 0.1); /* Softer shadow for black background */
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Adds a subtle border for better visibility */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease; /* Smooth animation */
+}
+.me img:hover {
+    transform: scale(1.05); /* Slight zoom-in effect */
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2), 
+                0 12px 40px rgba(255, 255, 255, 0.25); /* More pronounced shadow on hover */
+    border: 2px solid rgba(255, 255, 255, 0.4); /* Brightens the border on hover */
 }
 .me h2{
     font-size: 2rem;
@@ -201,6 +213,23 @@ header nav{
     margin-top: 80px;
     text-align: center;
     margin-left: 20px;
+}
+.me button{
+    width: 100px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #00bfff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: solid;
+}
+.me button:hover{
+    background-color: #00bfff;
+    color: black;
+    border: solid 5px;
+    width: 110px;
+    height: 55px;
 }
 
 
