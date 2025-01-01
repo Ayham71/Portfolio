@@ -1,7 +1,7 @@
 const bgAnimation = document.getElementById
 ('bgAnimation');
 
-const numberOfColorBoxes = 600;
+const numberOfColorBoxes = 1000;
 
 for(let i=0; i<numberOfColorBoxes; i++){
     const colorBox = document.createElement

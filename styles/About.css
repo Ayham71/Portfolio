@@ -123,6 +123,7 @@
     flex-direction: column;
     margin-top: 70px;
     margin-left: 25px;
+    margin-bottom: 130px;
 }
 .about_h{
     font-size: 2rem;
@@ -134,7 +135,7 @@
 .about_img img{
     width: 100px;
     position: absolute;
-    top: 80%;
+    top: 55rem;
     left: 80%;
 }
 @media(max-width: 934px){
@@ -142,14 +143,15 @@
         width: 70%;
         margin-left: 15px;
     }
+}
+@media(max-width: 800px){
     .about_img img{
-        top: 75%;
+        top: 60rem;
     }
 }
 @media(max-width: 768px){
     .about_img img{
         width: 80px;
-        top: 79%;
     }
     .about_p{
         font-size: 1.1rem;
@@ -163,6 +165,7 @@
     .about_img img{
         width: 70px;
         left: 83%;
+        top: 55rem;
     }
     .about_p{
         font-size: 1rem;
@@ -176,7 +179,7 @@
         font-size: .85rem;
     }
     .about_img img{
-        top: 83%;
+        top: 61rem;
         width: 60px;
     }
 }
@@ -190,7 +193,7 @@
     }
     .about_img img{
         width: 50px;
-        top: 80%;
+        top: 53rem;
     }
 }
 @media(max-width: 350px){
@@ -199,7 +202,7 @@
     }
     .about_img img{
         width: 45px;
-        top: 83%;
+        top: 51rem;
     }
     .about_p{
         font-size: 0.7rem;
