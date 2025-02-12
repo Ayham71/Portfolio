@@ -1,18 +1,37 @@
 .boxes{
-    margin-top: 100px;
+    margin-top: 150px;
 }
-.boxes h1{
+
+.h1 {
+    display: flex;
+    justify-content: center;
     margin-bottom: 50px;
-    font-weight: bold;
-    font-size: 50px;
-    border: double #00bfff 7px;
-    margin: 65px;
+}
+.h1 h1{
+    border: 10px #00bfff double;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.box_1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1), 
+                0 6px 20px rgba(255, 255, 255, 0.1); 
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.box_1 img{
+    justify-self: end;
+    width: 500px;
+    height: 500px;
+}
+.box_1 h3{
     text-align: center;
 }
 
-
-
 .box_2 img{
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
 }
