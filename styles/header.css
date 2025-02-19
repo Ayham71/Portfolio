@@ -225,10 +225,10 @@ header nav{
     border: solid;
 }
 .me button:hover{
-    background-color: #00bfff;
-    color: black;
+    background-color: white;
+    color: #00bfff;
     border: solid 5px;
-    transform: translateY(10px);
+    transform: translateY(-10px);
 }
 
 
