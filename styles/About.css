@@ -21,11 +21,12 @@
     text-transform: uppercase;
     color: #e0e0e0;
     animation: move 2s infinite alternate;
+    transition: bottom .4s, transform .4s;
     cursor: pointer;
 }
 
 .box:hover {
-    transform: translateY(-10px);
+    transform: translateY(-.5rem);
     box-shadow: 12px 12px 24px #101010, -12px -12px 24px #3a3a3a, inset 5px 5px 10px rgba(0,0,0,0.6), inset -5px -5px 10px rgba(255,255,255,0.1);
 }
 

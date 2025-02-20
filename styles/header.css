@@ -37,9 +37,10 @@ header nav{
     align-items: center;
     color: white;
     font-size: 2rem;
+    transition: bottom .4s, transform .4s;
 }  
 .header__menu .header__links:hover{
-    font-size: 3rem;
+    transform: translateY(-.5rem);
     text-decoration: underline;
 }
 .header__left h1 span{
@@ -223,12 +224,13 @@ header nav{
     font-weight: bold;
     cursor: pointer;
     border: solid;
+    transition: bottom .4s, transform .4s;
 }
 .me button:hover{
     background-color: white;
     color: #00bfff;
     border: solid 5px;
-    transform: translateY(-10px);
+    transform: translateY(-.5rem);
 }
 
 

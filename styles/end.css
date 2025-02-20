@@ -53,6 +53,10 @@
     font-weight: bolder;
     margin-left: 20px;
 }
+.last a:hover{
+    padding: 15px;
+    border-radius: 25px;
+}
 
 
 @media(max-width: 880px){
@@ -202,4 +206,23 @@
     .socail img{
         width: 35px;
     }
+}
+
+
+.scrollup{
+    position: fixed;
+    right: 3rem;
+    background-color: #00bbff;
+    color: white;
+    display: inline;
+    padding: 10px;
+    font-size: 1.7rem;
+    border-radius: 1rem;
+    font-weight: bolder;
+    box-shadow:  0 -4px 8px hsla(255, 100%, 100%, .3);
+    z-index: 10;
+    transition: bottom .4s, transform .4s;
+}
+.scrollup:hover{
+    transform: translateY(-.5rem);
 }
